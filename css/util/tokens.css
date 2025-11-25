@@ -1,0 +1,25 @@
+:root {
+	--border-1: 4px;
+	--border-2: 8px;
+	--border-3: 12px;
+	--border-4: 16px;
+
+	--font-heading: "Epilogue", sans-serif;
+	--font-normal: "DM Sans", sans-serif;
+
+	--color-minsk-50: #f5f4fe;
+	--color-minsk-100: #ecebfc;
+	--color-minsk-200: #dad9fb;
+	--color-minsk-300: #c0bbf7;
+	--color-minsk-400: #a095f0;
+	--color-minsk-500: #7f69e9;
+	--color-minsk-600: #6c4add;
+	--color-minsk-700: #5c37ca;
+	--color-minsk-800: #4d2ea9;
+	--color-minsk-900: #402789;
+	--color-minsk-950: #26175e;
+
+	--color-bg: #1a152c;
+	--color-cta: #6131ff;
+	--color-secondary: #40278916;
+}

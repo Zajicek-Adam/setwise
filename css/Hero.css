@@ -1,0 +1,34 @@
+.hero {
+	width: 100%;
+	padding-inline: 10%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-block: auto;
+    margin-top: 50px;
+}
+.hero .hero-background-image {
+    width: 500px;
+    height: 500px;
+    position: absolute;
+    left: calc(50% + 50px);
+    top: calc(50% + 0px);
+    transform: translate(-50%, -50%);
+    opacity: 0.35;
+    filter: blur(3px);
+}
+.hero > header h1 {
+    color: var(--color-minsk-400);
+    text-shadow: 2px 0px 80px #a095f0c0;
+    font-size: 5em;
+}
+.hero > header h2 {
+    font-size: 4em;
+}
+.hero > header p {
+    margin-top: 45px;
+    max-width: 550px;
+    color: var(--color-minsk-200);
+}
+
+

@@ -1,0 +1,81 @@
+.workout-container,
+.workout-container header {
+	display: grid;
+	place-items: center;
+}
+
+.workout-container {
+	background-color: #4d2ea98c;
+	width: 475px;
+	border-radius: var(--border-2);
+	position: relative;
+	grid-template-rows: 60px 1fr;
+    gap: 24px;
+	padding-inline: 2em;
+    padding-block: 2em;
+}
+
+.workout-container header h3 {
+	color: var(--color-minsk-300);
+	font-weight: 400;
+	letter-spacing: 1px;
+	font-family: var(--font-normal);
+}
+.workout-container .btn-exit {
+	width: 29px;
+	aspect-ratio: 1;
+	position: absolute;
+	right: 34px;
+	top: 34px;
+}
+
+.workout-table {
+	width: 100%;
+	display: grid;
+	grid-template-columns: repeat(8, 1fr);
+	row-gap: 1em;
+}
+
+.workout-table header,
+.workout-header-icons {
+	display: flex;
+	align-items: center;
+}
+
+.workout-table header {
+	grid-column: 1 / 9;
+	justify-content: space-between;
+}
+.workout-table header h2 {
+	font-weight: 600;
+	font-size: 1.25em;
+}
+.workout-header-icons {
+	gap: 0.32em;
+	justify-content: center;
+}
+.workout-table h3 {
+	color: var(--color-minsk-300);
+	font-weight: 500;
+}
+.set-incomplete {
+	color: #c0bbf779;
+}
+.workout-table span,
+.workout-table h3 {
+	text-align: center;
+}
+.workout-buttons {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+    grid-column: 3 / 7;
+    gap: 1em;
+}
+.workout-buttons .btn {
+	width: 100%;
+	padding: 0.75em;
+    background-color: var(--color-minsk-700);
+    font-size: 0.75em;
+    text-align: center;
+}

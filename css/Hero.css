@@ -15,7 +15,7 @@
     top: calc(50% + 0px);
     transform: translate(-50%, -50%);
     opacity: 0.35;
-    filter: blur(3px);
+    filter: blur(8px);
 }
 .hero > header h1 {
     color: var(--color-minsk-400);

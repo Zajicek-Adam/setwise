@@ -1,0 +1,117 @@
+.form-container {
+	width: 100%;
+	padding-inline: 10%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-block: auto;
+	margin-top: 50px;
+}
+
+.form {
+	background-color: var(--color-secondary);
+	border: 1px solid rgba(255, 255, 255, 0.5);
+	border-right: none;
+	border-radius: var(--border-2);
+	border-top-right-radius: 0;
+	border-bottom-right-radius: 0;
+	padding: 2em;
+	display: grid;
+	gap: 1em;
+	grid-template-columns: repeat(5, 1fr);
+	grid-template-rows: 1fr 0.75fr 0.75fr 0.75fr 2fr;
+	place-items: center;
+	height: 450px;
+	width: 450px;
+	box-shadow: 2px 0px 120px 10px #a095f03d;
+}
+.form h1 {
+	text-align: center;
+}
+.form h1 b {
+	color: var(--color-minsk-400);
+	font-weight: 700;
+}
+.form-input {
+	position: relative;
+	width: 100%;
+}
+.form-input input {
+	padding: 1em;
+	background-color: #4027892f;
+	border: 1px solid rgba(255, 255, 255, 0.247);
+	border-radius: var(--border-2);
+	width: 100%;
+}
+.form-input input:focus {
+	outline: none;
+	border: 1px solid var(--color-minsk-300);
+}
+.form-input label {
+	position: absolute;
+	top: 17px;
+	left: 10px;
+	color: var(--color-minsk-100);
+	font-weight: 4500;
+}
+.form-input label.label-active {
+	top: 7.5px;
+	left: 7.5px;
+}
+
+.form .btn-container {
+	grid-column: span 5;
+	width: 100%;
+	display: grid;
+	grid-template-columns: 3fr 2fr;
+	gap: 1em;
+}
+
+.form .btn {
+	width: 100%;
+}
+
+.form-checkbox {
+	width: 100%;
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	grid-column: span 5;
+	margin-left: 1em;
+	margin-top: 0.5em;
+	gap: 1em;
+}
+.form-checkbox label {
+	white-space: nowrap;
+}
+.form-checkbox input {
+	all: unset;
+	width: 28px;
+	height: 28px;
+	border-radius: var(--border-1);
+	background-color: var(--color-minsk-900);
+	transition: background-color 200ms ease;
+}
+.form-checkbox input:checked {
+	background-color: var(--color-minsk-400);
+	background-image: url("../assets/checkmark.svg");
+	background-position: center;
+}
+
+.form-image {
+	border-top-right-radius: var(--border-2);
+	border-bottom-right-radius: var(--border-2);
+	overflow: hidden;
+	width: 350px;
+	height: 450px;
+	position: relative;
+	background-color: var(--color-minsk-800);
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	gap: 2em;
+}
+.form-image h2 {
+	text-align: center;
+}

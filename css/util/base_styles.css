@@ -105,6 +105,13 @@ a {
 a:not(.btn) {
 	font-family: var(--font-heading);
 }
+button {
+	outline: none;
+	border: none;
+	cursor: pointer;
+	white-space: nowrap;
+	text-align: center;
+}
 
 h1,
 h2,
@@ -114,6 +121,7 @@ h5 {
 	margin: 0;
 	font-family: var(--font-heading);
 }
+
 .col-span-1 {
 	grid-column: span 1;
 }
@@ -123,6 +131,12 @@ h5 {
 .col-span-3 {
 	grid-column: span 3;
 }
+.col-span-4 {
+	grid-column: span 4;
+}
+.col-span-5 {
+	grid-column: span 5;
+}
 .row-span-1 {
 	grid-column: span 1;
 }
@@ -131,6 +145,12 @@ h5 {
 }
 .row-span-3 {
 	grid-column: span 3;
+}
+.row-span-4 {
+	grid-column: span 4;
+}
+.row-span-5 {
+	grid-column: span 5;
 }
 .m-auto {
 	margin: auto;
@@ -447,12 +467,16 @@ h2.show {
 	justify-content: center;
 	align-items: center;
 }
+.gap-1 {
+	gap: 1em;
+}
 
 .btn {
 	color: var(--color-minsk-50);
 	font-size: 1.25em;
 	padding: 0.75em 2.25em;
 	border-radius: var(--border-1);
+	transition: background-color 200ms ease-in;
 }
 .btn-cta {
 	background-color: var(--color-cta);
@@ -460,6 +484,15 @@ h2.show {
 .btn-secondary {
 	background-color: var(--color-secondary);
 	border: 1px solid rgba(255, 255, 255, 0.5);
+}
+
+.btn-cta:hover,
+.btn-cta:focus {
+	background-color: var(--color-minsk-700);
+}
+.btn-secondary:hover,
+.btn-secondary:focus {
+	background-color: var(--color-minsk-950);
 }
 
 .logo-container {

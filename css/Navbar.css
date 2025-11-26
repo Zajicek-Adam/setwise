@@ -32,3 +32,6 @@ nav {
 .nav-buttons > a {
 	text-align: center;
 }
+.nav-header > a {
+	color: var(--color-minsk-100);
+}

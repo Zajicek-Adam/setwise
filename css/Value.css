@@ -17,7 +17,7 @@
 	display: grid;
 	grid-template-rows: 2fr 3fr;
 	grid-template-columns: 1fr 1fr 1fr;
-    gap: 1em;
+	gap: 1em;
 }
 
 .value header {
@@ -29,8 +29,8 @@
 	color: var(--color-minsk-400);
 	font-weight: 400;
 }
-.value header h1{
-    color: var(--color-minsk-300)
+.value header h1 {
+	color: var(--color-minsk-300);
 }
 .value .value-example {
 	display: grid;
@@ -54,4 +54,10 @@
 }
 .img-container > svg {
 	height: 100%;
+}
+
+@media screen and (min-width: 1600px) {
+	.value {
+		height: 500px;
+	}
 }

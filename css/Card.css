@@ -40,6 +40,15 @@
 .card.card-wide {
 	background-color: var(--color-minsk-900);
 }
+.card.card-wide ul {
+	color: var(--color-minsk-200);
+}
+.card.card-wide h1 {
+	color: var(--color-minsk-100);
+}
+.card.card-wide h3 {
+	color: var(--color-minsk-400);
+}
 
 .card header {
 	display: grid;
@@ -56,4 +65,13 @@
 }
 .card.card-normal .card-price {
 	color: var(--color-minsk-950);
+}
+
+@media screen and (min-width: 1600px) {
+	.card ul {
+		font-size: 1.2em;
+	}
+	.card ul li {
+		margin-block: 0.25em;
+	}
 }

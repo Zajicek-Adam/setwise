@@ -9,7 +9,7 @@
 
 .card {
 	display: grid;
-	grid-template-rows: 0.8fr 2fr 0.85fr;
+	grid-template-rows: 0.8fr 1.75fr 0.85fr;
 	padding: 2em;
 	gap: 1em;
 	border-radius: var(--border-2);

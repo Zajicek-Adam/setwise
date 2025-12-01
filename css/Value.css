@@ -58,7 +58,10 @@
 
 @media screen and (min-width: 1600px) {
 	.value {
-		height: 500px;
+		height: 420px;
+	}
+	.value-example .value-example-text p {
+		font-size: 0.9em;
 	}
 }
 
@@ -72,6 +75,5 @@
 		gap: 3em;
 		height: auto;
 		width: 100%;
-		padding: 2rem;
 	}
 }

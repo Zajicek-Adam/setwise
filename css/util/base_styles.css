@@ -501,6 +501,10 @@ h2.show {
 	height: 67px;
 	border-radius: 50px;
 }
+.logo-container > svg {
+	width: 101%;
+	height: 101%;
+}
 
 @media screen and (min-width: 1920px) {
 	:root {

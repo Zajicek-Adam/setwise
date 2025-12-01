@@ -7,6 +7,7 @@
 	max-width: 1680px;
 	min-width: 700px;
 	width: calc(4 / 5 * 100%);
+	gap: 2em;
 	position: relative;
 }
 .hero .hero-background-image {
@@ -17,7 +18,7 @@
 	opacity: 0.35;
 	filter: blur(8px);
 	height: 150%;
-    user-select: none;
+	user-select: none;
 }
 .hero > header h1 {
 	color: var(--color-minsk-400);
@@ -31,4 +32,30 @@
 	margin-top: 45px;
 	max-width: 550px;
 	color: var(--color-minsk-200);
+}
+@media screen and (max-width: 1200px) {
+	.hero {
+		flex-direction: column;
+		min-width: 300px;
+	}
+	div.no-delay-mobile {
+		transition-delay: 0s;
+	}
+}
+@media screen and (max-width: 880px) {
+	.hero > header {
+		padding-inline: 1rem;
+	}
+	.hero > header h1 {
+		font-size: 3em;
+		text-align: center;
+	}
+	.hero > header h2 {
+		font-size: 2em;
+		margin-top: 1em;
+		text-align: center;
+	}
+	.hero .hero-background-image {
+		left: 50%
+	}
 }

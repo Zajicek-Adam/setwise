@@ -61,3 +61,17 @@
 		height: 500px;
 	}
 }
+
+@media screen and (max-width: 800px) {
+	.value-container {
+		padding-inline: 1rem;
+	}
+	.value {
+		display: flex;
+		flex-direction: column;
+		gap: 3em;
+		height: auto;
+		width: 100%;
+		padding: 2rem;
+	}
+}

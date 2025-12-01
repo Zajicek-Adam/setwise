@@ -25,7 +25,7 @@ body {
 	grid-template-rows: 1fr 0.75fr 0.75fr 0.75fr 2fr;
 	place-items: center;
 	height: 450px;
-	width: 550px;
+	width: 425px;
 	box-shadow: 2px 0px 120px 10px #a095f03d;
 }
 .form h1 {
@@ -105,7 +105,7 @@ body {
 	border-top-right-radius: var(--border-2);
 	border-bottom-right-radius: var(--border-2);
 	overflow: hidden;
-	width: 350px;
+	width: 375px;
 	height: 450px;
 	position: relative;
 	background-color: var(--color-minsk-800);
@@ -117,4 +117,15 @@ body {
 }
 .form-image h2 {
 	text-align: center;
+}
+
+@media screen and (min-width: 1800px) {
+	.form {
+		width: 550px;
+		height: 500px;
+	}
+	.form-image {
+		height: 500px;
+		width: 400px;
+	}
 }

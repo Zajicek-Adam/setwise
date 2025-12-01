@@ -79,3 +79,10 @@
     font-size: 0.75em;
     text-align: center;
 }
+
+@media screen and (max-width: 475px) {
+	.workout-container {
+		width: 100%;
+		font-size: 0.75em;
+	}
+}

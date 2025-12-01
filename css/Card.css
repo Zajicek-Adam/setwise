@@ -87,5 +87,6 @@
 	.card-container {
 		padding-inline: 10%;
 		grid-template-columns: 1fr;
+		height: auto;
 	}
 }

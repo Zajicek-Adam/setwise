@@ -21,7 +21,9 @@ burger.addEventListener("click", (e) => {
 Array.from(nav_links.childNodes).forEach((el) => {
 	el.addEventListener("click", () => {
 		console.log(el);
-		toggleBurger();
+		if (mediaQuery.matches) {
+			toggleBurger();
+		}
 	});
 });
 

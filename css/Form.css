@@ -175,4 +175,8 @@ body {
 	.form-input-container label.set {
 		transform: translateY(-10.5px) scale(0.9);
 	}
+	.form-image .logo-container {
+		width: 50px;
+		height: 50px;
+	}
 }

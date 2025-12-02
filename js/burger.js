@@ -18,10 +18,13 @@ burger.addEventListener("click", (e) => {
 	toggleBurger();
 });
 
-/* contactButton.addEventListener("click", (e) => {
-	if (mediaQuery.matches) toggleBurger();
+Array.from(nav_links.childNodes).forEach((el) => {
+	el.addEventListener("click", () => {
+		console.log(el);
+		toggleBurger();
+	});
 });
- */
+
 function handleChange(event) {
 	if (event.matches) {
 		burger.classList.remove("hidden");

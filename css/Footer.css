@@ -1,6 +1,6 @@
 footer {
 	height: 600px;
-	background: linear-gradient(#26175e, #1a152c);
+	background: linear-gradient(var(--color-minsk-950), var(--color-minsk-800));
 	flex-direction: column;
 	gap: 3em;
 }
@@ -34,6 +34,6 @@ footer > .heading {
 @media screen and (max-width: 420px) {
 	.footer-links {
 		flex-direction: column;
-        gap: 2em;
+		gap: 2em;
 	}
 }

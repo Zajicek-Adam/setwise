@@ -6,6 +6,28 @@
 			name="viewport"
 			content="width=device-width, initial-scale=1.0" />
 		<link
+			rel="icon"
+			type="image/png"
+			href="/assets/favicon-96x96.png"
+			sizes="96x96" />
+		<link
+			rel="icon"
+			type="image/svg+xml"
+			href="/assets/favicon.svg" />
+		<link
+			rel="shortcut icon"
+			href="/assets/favicon.ico" />
+		<link
+			rel="apple-touch-icon"
+			sizes="180x180"
+			href="/assets/apple-touch-icon.png" />
+		<meta
+			name="apple-mobile-web-app-title"
+			content="Setwise" />
+		<link
+			rel="manifest"
+			href="/assets/site.webmanifest" />
+		<link
 			rel="preconnect"
 			href="https://fonts.googleapis.com" />
 		<link
@@ -74,7 +96,9 @@
 			</div>
 		</nav>
 		<main class="form-container unseen up">
-			<form class="form">
+			<form
+				id="form"
+				class="form">
 				<h1 class="col-span-5">Join <b>Setwise.</b></h1>
 				<div class="form-input-container col-span-5">
 					<label
@@ -85,7 +109,10 @@
 					<input
 						class="form-input"
 						id="email"
-						type="text" />
+						minlength="6"
+						maxlength="40"
+						required
+						type="email" />
 				</div>
 				<div class="form-input-container col-span-5">
 					<label
@@ -96,6 +123,9 @@
 					<input
 						class="form-input"
 						id="password"
+						minlength="6"
+						maxlength="40"
+						required
 						type="password" />
 				</div>
 				<div class="form-input-container col-span-5">
@@ -107,12 +137,23 @@
 					<input
 						class="form-input"
 						id="password-confirm"
+						minlength="6"
+						maxlength="40"
+						required
 						type="password" />
 				</div>
 
 				<div class="btn-container">
-					<button class="btn btn-cta">Sign Up</button>
-					<button class="btn btn-secondary">Log In</button>
+					<button
+						type="submit"
+						class="btn btn-cta">
+						Sign Up
+					</button>
+					<a
+						class="btn btn-secondary"
+						href="./login.html"
+						>Log In</a
+					>
 				</div>
 			</form>
 			<aside class="form-image">
@@ -132,6 +173,6 @@
 		</main>
 		<script src="../js/fadein.js"></script>
 		<script src="../js/burger.js"></script>
-		<script src="../js/form_visuals.js"></script>
+		<script src="../js/form.js"></script>
 	</body>
 </html>

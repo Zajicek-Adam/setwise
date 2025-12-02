@@ -2,7 +2,6 @@ let inputs = document.getElementsByClassName("form-input");
 let labels = document.getElementsByClassName("form-label");
 
 const form = document.getElementById("form");
-const result = document.getElementById("result");
 
 Array.from(inputs).forEach((input, index) => {
 	input.addEventListener("focus", () => {
@@ -24,4 +23,12 @@ window.addEventListener("pageshow", (e) => {
 			labels[index].classList.add("set");
 		}
 	});
+});
+
+form.addEventListener("submit", (e) => {
+	e.preventDefault();
+	if (!form.checkValidity()) {
+		return;
+	}
+	window.location.href = "../index.html";
 });

@@ -30,5 +30,5 @@ form.addEventListener("submit", (e) => {
 	if (!form.checkValidity()) {
 		return;
 	}
-	window.location.href = "../index.html";
+	window.location.href = "../dashboard.html";
 });

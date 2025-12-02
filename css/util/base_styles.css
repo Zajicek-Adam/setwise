@@ -514,3 +514,9 @@ h2.show {
 		font-size: 1.2rem;
 	}
 }
+
+@media screen and (max-width: 1200px) {
+	div.no-delay-mobile {
+		transition-delay: 0s;
+	}
+}

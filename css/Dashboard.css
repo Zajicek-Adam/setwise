@@ -78,7 +78,8 @@
 
 @media screen and (max-width: 800px) {
 	.dashboard-container {
-		padding: 1em;
+		padding-inline: 1em;
+        padding-top: 0;
 	}
 	.dashboard {
 		width: 100%;

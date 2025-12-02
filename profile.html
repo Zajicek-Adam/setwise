@@ -1,0 +1,582 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta
+			name="viewport"
+			content="width=device-width, initial-scale=1.0" />
+		<link
+			rel="icon"
+			type="image/png"
+			href="/assets/favicon-96x96.png"
+			sizes="96x96" />
+		<link
+			rel="icon"
+			type="image/svg+xml"
+			href="/assets/favicon.svg" />
+		<link
+			rel="shortcut icon"
+			href="/assets/favicon.ico" />
+		<link
+			rel="apple-touch-icon"
+			sizes="180x180"
+			href="/assets/apple-touch-icon.png" />
+		<meta
+			name="apple-mobile-web-app-title"
+			content="Setwise" />
+		<link
+			rel="manifest"
+			href="/assets/site.webmanifest" />
+		<link
+			rel="preconnect"
+			href="https://fonts.googleapis.com" />
+		<link
+			rel="preconnect"
+			href="https://fonts.gstatic.com"
+			crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Epilogue:ital,wght@0,100..900;1,100..900&display=swap"
+			rel="stylesheet" />
+		<link
+			rel="stylesheet"
+			href="css/util/tokens.css" />
+		<link
+			rel="stylesheet"
+			href="css/util/base_styles.css" />
+		<link
+			rel="stylesheet"
+			href="css/Navbar.css" />
+		<link
+			rel="stylesheet"
+			href="css/Workout.css" />
+		<link
+			rel="stylesheet"
+			href="css/Profile.css" />
+		<title>Setwise | Profile</title>
+	</head>
+	<body>
+		<nav>
+			<header class="nav-header">
+				<div class="logo-container">
+					<svg
+						viewBox="0 0 69 69"
+						xmlns="http://www.w3.org/2000/svg">
+						<path
+							fill-rule="evenodd"
+							clip-rule="evenodd"
+							d="M5.75 0C4.22501 0 2.76247 0.605802 1.68414 1.68414C0.605802 2.76247 0 4.22501 0 5.75V63.25C0 64.775 0.605802 66.2375 1.68414 67.3159C2.76247 68.3942 4.22501 69 5.75 69H63.25C64.775 69 66.2375 68.3942 67.3159 67.3159C68.3942 66.2375 69 64.775 69 63.25V5.75C69 4.22501 68.3942 2.76247 67.3159 1.68414C66.2375 0.605802 64.775 0 63.25 0H5.75ZM49.8333 19.1667H44.0833V49.8333H49.8333V19.1667ZM53.6667 24.9167H59.4167V32.5833H61.3333V36.4167H59.4167V44.0833H53.6667V24.9167ZM19.1667 49.8333H24.9167V19.1667H19.1667V49.8333ZM15.3333 44.0833H9.58333V36.4167H7.66667V32.5833H9.58333V24.9167H15.3333V44.0833ZM28.75 36.4167H40.25V32.5833H28.75V36.4167Z"
+							fill="#5c37ca" />
+					</svg>
+				</div>
+				<h1>Setwise</h1>
+				<div
+					id="burger"
+					class="burger">
+					<span></span>
+					<span></span>
+					<span></span>
+				</div>
+			</header>
+
+			<div class="nav-links">
+				<a href="./dashboard.html">Dashboard</a>
+				<a href="">Profile</a>
+			</div>
+
+			<div class="nav-buttons">
+				<a
+					href="auth/login.html"
+					class="btn btn-secondary"
+					>Sign out</a
+				>
+			</div>
+		</nav>
+		<main class="profile-container">
+			<header>
+				<svg
+					viewBox="0 0 24 24"
+					fill="none"
+					xmlns="http://www.w3.org/2000/svg">
+					<path
+						d="M12 12C10.9 12 9.95833 11.6083 9.175 10.825C8.39167 10.0417 8 9.1 8 8C8 6.9 8.39167 5.95833 9.175 5.175C9.95833 4.39167 10.9 4 12 4C13.1 4 14.0417 4.39167 14.825 5.175C15.6083 5.95833 16 6.9 16 8C16 9.1 15.6083 10.0417 14.825 10.825C14.0417 11.6083 13.1 12 12 12ZM4 20V17.2C4 16.6333 4.146 16.1127 4.438 15.638C4.73 15.1633 5.11733 14.8007 5.6 14.55C6.63333 14.0333 7.68333 13.646 8.75 13.388C9.81667 13.13 10.9 13.0007 12 13C13.1 12.9993 14.1833 13.1287 15.25 13.388C16.3167 13.6473 17.3667 14.0347 18.4 14.55C18.8833 14.8 19.271 15.1627 19.563 15.638C19.855 16.1133 20.0007 16.634 20 17.2V20H4Z"
+						fill="var(--color-minsk-200)" />
+				</svg>
+				<h1>Mr. Mike Israetel</h1>
+			</header>
+			<section class="profile-recap">
+				<h2>241 total workouts</h2>
+				<div class="profile-stats">
+					<div class="pie"></div>
+					<div>
+						<h3
+							class="unseen right"
+							style="--workout-color: rgb(239, 31, 79)">
+							36x leg
+						</h3>
+						<h3
+							class="unseen right delay-2"
+							style="--workout-color: #e4bc45">
+							97x pull
+						</h3>
+						<h3
+							class="unseen right delay-4"
+							style="--workout-color: var(--color-minsk-600)">
+							108x push
+						</h3>
+					</div>
+				</div>
+			</section>
+			<section class="profile-history">
+				<h2 class="unseen up">Workout history</h2>
+				<div class="profile-workout-container">
+					<div class="profile-workout">
+						<header>
+							<h3>Push</h3>
+							<time>2.12.2025</time>
+						</header>
+						<div>
+							<div class="workout-stat">
+								<svg
+									width="30"
+									height="30"
+									viewBox="0 0 30 30"
+									fill="none"
+									xmlns="http://www.w3.org/2000/svg">
+									<rect
+										width="30"
+										height="30"
+										rx="4"
+										fill="#6C4ADD" />
+									<path
+										d="M15 25C19.4183 25 23 21.4183 23 17C23 12.5817 19.4183 9 15 9C10.5817 9 7 12.5817 7 17C7 21.4183 10.5817 25 15 25Z"
+										stroke="white"
+										stroke-width="2" />
+									<path
+										d="M17 5H13M15 5V9M20.5 11L22 9.5M15 14V17H12"
+										stroke="white"
+										stroke-width="2"
+										stroke-linecap="round"
+										stroke-linejoin="round" />
+								</svg>
+								<h4>1h 30min</h4>
+							</div>
+							<div class="workout-stat">
+								<div
+									style="
+										background-color: var(
+											--color-minsk-100
+										);
+										width: 30px;
+										height: 30px;
+										border-radius: 50%;
+									">
+									<svg
+										viewBox="0 0 69 69"
+										xmlns="http://www.w3.org/2000/svg">
+										<path
+											fill-rule="evenodd"
+											clip-rule="evenodd"
+											d="M5.75 0C4.22501 0 2.76247 0.605802 1.68414 1.68414C0.605802 2.76247 0 4.22501 0 5.75V63.25C0 64.775 0.605802 66.2375 1.68414 67.3159C2.76247 68.3942 4.22501 69 5.75 69H63.25C64.775 69 66.2375 68.3942 67.3159 67.3159C68.3942 66.2375 69 64.775 69 63.25V5.75C69 4.22501 68.3942 2.76247 67.3159 1.68414C66.2375 0.605802 64.775 0 63.25 0H5.75ZM49.8333 19.1667H44.0833V49.8333H49.8333V19.1667ZM53.6667 24.9167H59.4167V32.5833H61.3333V36.4167H59.4167V44.0833H53.6667V24.9167ZM19.1667 49.8333H24.9167V19.1667H19.1667V49.8333ZM15.3333 44.0833H9.58333V36.4167H7.66667V32.5833H9.58333V24.9167H15.3333V44.0833ZM28.75 36.4167H40.25V32.5833H28.75V36.4167Z"
+											fill="#5c37ca" />
+									</svg>
+								</div>
+								<h4>16 sets</h4>
+							</div>
+							<div class="workout-stat">
+								<svg
+									width="30"
+									height="30"
+									viewBox="0 0 30 30"
+									fill="none"
+									xmlns="http://www.w3.org/2000/svg">
+									<rect
+										width="30"
+										height="30"
+										rx="4"
+										fill="#5C37CA" />
+									<path
+										d="M9.23077 25.3846V23.0769H13.8462V19.5C12.9038 19.2884 12.0627 18.8896 11.3227 18.3034C10.5827 17.7173 10.0392 16.9815 9.69231 16.0961C8.25 15.923 7.04346 15.2934 6.07269 14.2073C5.10193 13.1211 4.61616 11.8469 4.61539 10.3846V6.92305H9.23077V4.61536H20.7692V6.92305H25.3846V10.3846C25.3846 11.8461 24.8988 13.1204 23.9273 14.2073C22.9558 15.2942 21.7492 15.9238 20.3077 16.0961C19.9615 16.9807 19.4185 17.7165 18.6785 18.3034C17.9385 18.8904 17.0969 19.2892 16.1538 19.5V23.0769H20.7692V25.3846H9.23077ZM9.23077 13.6154V9.23074H6.92308V10.3846C6.92308 11.1154 7.13462 11.7742 7.55769 12.3611C7.98077 12.948 8.53846 13.3661 9.23077 13.6154ZM20.7692 13.6154C21.4615 13.3654 22.0192 12.9469 22.4423 12.36C22.8654 11.773 23.0769 11.1146 23.0769 10.3846V9.23074H20.7692V13.6154Z"
+										fill="#ECEBFC" />
+								</svg>
+
+								<h4>3 PRs</h4>
+							</div>
+						</div>
+					</div>
+					<div class="profile-workout">
+						<header>
+							<h3>Pull</h3>
+							<time>1.12.2025</time>
+						</header>
+						<div>
+							<div class="workout-stat">
+								<svg
+									width="30"
+									height="30"
+									viewBox="0 0 30 30"
+									fill="none"
+									xmlns="http://www.w3.org/2000/svg">
+									<rect
+										width="30"
+										height="30"
+										rx="4"
+										fill="#6C4ADD" />
+									<path
+										d="M15 25C19.4183 25 23 21.4183 23 17C23 12.5817 19.4183 9 15 9C10.5817 9 7 12.5817 7 17C7 21.4183 10.5817 25 15 25Z"
+										stroke="white"
+										stroke-width="2" />
+									<path
+										d="M17 5H13M15 5V9M20.5 11L22 9.5M15 14V17H12"
+										stroke="white"
+										stroke-width="2"
+										stroke-linecap="round"
+										stroke-linejoin="round" />
+								</svg>
+								<h4>1h 34min</h4>
+							</div>
+							<div class="workout-stat">
+								<div
+									style="
+										background-color: var(
+											--color-minsk-100
+										);
+										width: 30px;
+										height: 30px;
+										border-radius: 50%;
+									">
+									<svg
+										viewBox="0 0 69 69"
+										xmlns="http://www.w3.org/2000/svg">
+										<path
+											fill-rule="evenodd"
+											clip-rule="evenodd"
+											d="M5.75 0C4.22501 0 2.76247 0.605802 1.68414 1.68414C0.605802 2.76247 0 4.22501 0 5.75V63.25C0 64.775 0.605802 66.2375 1.68414 67.3159C2.76247 68.3942 4.22501 69 5.75 69H63.25C64.775 69 66.2375 68.3942 67.3159 67.3159C68.3942 66.2375 69 64.775 69 63.25V5.75C69 4.22501 68.3942 2.76247 67.3159 1.68414C66.2375 0.605802 64.775 0 63.25 0H5.75ZM49.8333 19.1667H44.0833V49.8333H49.8333V19.1667ZM53.6667 24.9167H59.4167V32.5833H61.3333V36.4167H59.4167V44.0833H53.6667V24.9167ZM19.1667 49.8333H24.9167V19.1667H19.1667V49.8333ZM15.3333 44.0833H9.58333V36.4167H7.66667V32.5833H9.58333V24.9167H15.3333V44.0833ZM28.75 36.4167H40.25V32.5833H28.75V36.4167Z"
+											fill="#5c37ca" />
+									</svg>
+								</div>
+								<h4>20 sets</h4>
+							</div>
+							<div class="workout-stat">
+								<svg
+									width="30"
+									height="30"
+									viewBox="0 0 30 30"
+									fill="none"
+									xmlns="http://www.w3.org/2000/svg">
+									<rect
+										width="30"
+										height="30"
+										rx="4"
+										fill="#5C37CA" />
+									<path
+										d="M9.23077 25.3846V23.0769H13.8462V19.5C12.9038 19.2884 12.0627 18.8896 11.3227 18.3034C10.5827 17.7173 10.0392 16.9815 9.69231 16.0961C8.25 15.923 7.04346 15.2934 6.07269 14.2073C5.10193 13.1211 4.61616 11.8469 4.61539 10.3846V6.92305H9.23077V4.61536H20.7692V6.92305H25.3846V10.3846C25.3846 11.8461 24.8988 13.1204 23.9273 14.2073C22.9558 15.2942 21.7492 15.9238 20.3077 16.0961C19.9615 16.9807 19.4185 17.7165 18.6785 18.3034C17.9385 18.8904 17.0969 19.2892 16.1538 19.5V23.0769H20.7692V25.3846H9.23077ZM9.23077 13.6154V9.23074H6.92308V10.3846C6.92308 11.1154 7.13462 11.7742 7.55769 12.3611C7.98077 12.948 8.53846 13.3661 9.23077 13.6154ZM20.7692 13.6154C21.4615 13.3654 22.0192 12.9469 22.4423 12.36C22.8654 11.773 23.0769 11.1146 23.0769 10.3846V9.23074H20.7692V13.6154Z"
+										fill="#ECEBFC" />
+								</svg>
+
+								<h4>1 PR</h4>
+							</div>
+						</div>
+					</div>
+					<div class="profile-workout">
+						<header>
+							<h3>Push</h3>
+							<time>2.12.2025</time>
+						</header>
+						<div>
+							<div class="workout-stat">
+								<svg
+									width="30"
+									height="30"
+									viewBox="0 0 30 30"
+									fill="none"
+									xmlns="http://www.w3.org/2000/svg">
+									<rect
+										width="30"
+										height="30"
+										rx="4"
+										fill="#6C4ADD" />
+									<path
+										d="M15 25C19.4183 25 23 21.4183 23 17C23 12.5817 19.4183 9 15 9C10.5817 9 7 12.5817 7 17C7 21.4183 10.5817 25 15 25Z"
+										stroke="white"
+										stroke-width="2" />
+									<path
+										d="M17 5H13M15 5V9M20.5 11L22 9.5M15 14V17H12"
+										stroke="white"
+										stroke-width="2"
+										stroke-linecap="round"
+										stroke-linejoin="round" />
+								</svg>
+								<h4>1h 30min</h4>
+							</div>
+							<div class="workout-stat">
+								<div
+									style="
+										background-color: var(
+											--color-minsk-100
+										);
+										width: 30px;
+										height: 30px;
+										border-radius: 50%;
+									">
+									<svg
+										viewBox="0 0 69 69"
+										xmlns="http://www.w3.org/2000/svg">
+										<path
+											fill-rule="evenodd"
+											clip-rule="evenodd"
+											d="M5.75 0C4.22501 0 2.76247 0.605802 1.68414 1.68414C0.605802 2.76247 0 4.22501 0 5.75V63.25C0 64.775 0.605802 66.2375 1.68414 67.3159C2.76247 68.3942 4.22501 69 5.75 69H63.25C64.775 69 66.2375 68.3942 67.3159 67.3159C68.3942 66.2375 69 64.775 69 63.25V5.75C69 4.22501 68.3942 2.76247 67.3159 1.68414C66.2375 0.605802 64.775 0 63.25 0H5.75ZM49.8333 19.1667H44.0833V49.8333H49.8333V19.1667ZM53.6667 24.9167H59.4167V32.5833H61.3333V36.4167H59.4167V44.0833H53.6667V24.9167ZM19.1667 49.8333H24.9167V19.1667H19.1667V49.8333ZM15.3333 44.0833H9.58333V36.4167H7.66667V32.5833H9.58333V24.9167H15.3333V44.0833ZM28.75 36.4167H40.25V32.5833H28.75V36.4167Z"
+											fill="#5c37ca" />
+									</svg>
+								</div>
+								<h4>16 sets</h4>
+							</div>
+							<div class="workout-stat">
+								<svg
+									width="30"
+									height="30"
+									viewBox="0 0 30 30"
+									fill="none"
+									xmlns="http://www.w3.org/2000/svg">
+									<rect
+										width="30"
+										height="30"
+										rx="4"
+										fill="#5C37CA" />
+									<path
+										d="M9.23077 25.3846V23.0769H13.8462V19.5C12.9038 19.2884 12.0627 18.8896 11.3227 18.3034C10.5827 17.7173 10.0392 16.9815 9.69231 16.0961C8.25 15.923 7.04346 15.2934 6.07269 14.2073C5.10193 13.1211 4.61616 11.8469 4.61539 10.3846V6.92305H9.23077V4.61536H20.7692V6.92305H25.3846V10.3846C25.3846 11.8461 24.8988 13.1204 23.9273 14.2073C22.9558 15.2942 21.7492 15.9238 20.3077 16.0961C19.9615 16.9807 19.4185 17.7165 18.6785 18.3034C17.9385 18.8904 17.0969 19.2892 16.1538 19.5V23.0769H20.7692V25.3846H9.23077ZM9.23077 13.6154V9.23074H6.92308V10.3846C6.92308 11.1154 7.13462 11.7742 7.55769 12.3611C7.98077 12.948 8.53846 13.3661 9.23077 13.6154ZM20.7692 13.6154C21.4615 13.3654 22.0192 12.9469 22.4423 12.36C22.8654 11.773 23.0769 11.1146 23.0769 10.3846V9.23074H20.7692V13.6154Z"
+										fill="#ECEBFC" />
+								</svg>
+
+								<h4>3 PRs</h4>
+							</div>
+						</div>
+					</div>
+					<div class="profile-workout">
+						<header>
+							<h3>Pull</h3>
+							<time>1.12.2025</time>
+						</header>
+						<div>
+							<div class="workout-stat">
+								<svg
+									width="30"
+									height="30"
+									viewBox="0 0 30 30"
+									fill="none"
+									xmlns="http://www.w3.org/2000/svg">
+									<rect
+										width="30"
+										height="30"
+										rx="4"
+										fill="#6C4ADD" />
+									<path
+										d="M15 25C19.4183 25 23 21.4183 23 17C23 12.5817 19.4183 9 15 9C10.5817 9 7 12.5817 7 17C7 21.4183 10.5817 25 15 25Z"
+										stroke="white"
+										stroke-width="2" />
+									<path
+										d="M17 5H13M15 5V9M20.5 11L22 9.5M15 14V17H12"
+										stroke="white"
+										stroke-width="2"
+										stroke-linecap="round"
+										stroke-linejoin="round" />
+								</svg>
+								<h4>1h 34min</h4>
+							</div>
+							<div class="workout-stat">
+								<div
+									style="
+										background-color: var(
+											--color-minsk-100
+										);
+										width: 30px;
+										height: 30px;
+										border-radius: 50%;
+									">
+									<svg
+										viewBox="0 0 69 69"
+										xmlns="http://www.w3.org/2000/svg">
+										<path
+											fill-rule="evenodd"
+											clip-rule="evenodd"
+											d="M5.75 0C4.22501 0 2.76247 0.605802 1.68414 1.68414C0.605802 2.76247 0 4.22501 0 5.75V63.25C0 64.775 0.605802 66.2375 1.68414 67.3159C2.76247 68.3942 4.22501 69 5.75 69H63.25C64.775 69 66.2375 68.3942 67.3159 67.3159C68.3942 66.2375 69 64.775 69 63.25V5.75C69 4.22501 68.3942 2.76247 67.3159 1.68414C66.2375 0.605802 64.775 0 63.25 0H5.75ZM49.8333 19.1667H44.0833V49.8333H49.8333V19.1667ZM53.6667 24.9167H59.4167V32.5833H61.3333V36.4167H59.4167V44.0833H53.6667V24.9167ZM19.1667 49.8333H24.9167V19.1667H19.1667V49.8333ZM15.3333 44.0833H9.58333V36.4167H7.66667V32.5833H9.58333V24.9167H15.3333V44.0833ZM28.75 36.4167H40.25V32.5833H28.75V36.4167Z"
+											fill="#5c37ca" />
+									</svg>
+								</div>
+								<h4>20 sets</h4>
+							</div>
+							<div class="workout-stat">
+								<svg
+									width="30"
+									height="30"
+									viewBox="0 0 30 30"
+									fill="none"
+									xmlns="http://www.w3.org/2000/svg">
+									<rect
+										width="30"
+										height="30"
+										rx="4"
+										fill="#5C37CA" />
+									<path
+										d="M9.23077 25.3846V23.0769H13.8462V19.5C12.9038 19.2884 12.0627 18.8896 11.3227 18.3034C10.5827 17.7173 10.0392 16.9815 9.69231 16.0961C8.25 15.923 7.04346 15.2934 6.07269 14.2073C5.10193 13.1211 4.61616 11.8469 4.61539 10.3846V6.92305H9.23077V4.61536H20.7692V6.92305H25.3846V10.3846C25.3846 11.8461 24.8988 13.1204 23.9273 14.2073C22.9558 15.2942 21.7492 15.9238 20.3077 16.0961C19.9615 16.9807 19.4185 17.7165 18.6785 18.3034C17.9385 18.8904 17.0969 19.2892 16.1538 19.5V23.0769H20.7692V25.3846H9.23077ZM9.23077 13.6154V9.23074H6.92308V10.3846C6.92308 11.1154 7.13462 11.7742 7.55769 12.3611C7.98077 12.948 8.53846 13.3661 9.23077 13.6154ZM20.7692 13.6154C21.4615 13.3654 22.0192 12.9469 22.4423 12.36C22.8654 11.773 23.0769 11.1146 23.0769 10.3846V9.23074H20.7692V13.6154Z"
+										fill="#ECEBFC" />
+								</svg>
+
+								<h4>1 PR</h4>
+							</div>
+						</div>
+					</div>
+					<div class="profile-workout">
+						<header>
+							<h3>Push</h3>
+							<time>2.12.2025</time>
+						</header>
+						<div>
+							<div class="workout-stat">
+								<svg
+									width="30"
+									height="30"
+									viewBox="0 0 30 30"
+									fill="none"
+									xmlns="http://www.w3.org/2000/svg">
+									<rect
+										width="30"
+										height="30"
+										rx="4"
+										fill="#6C4ADD" />
+									<path
+										d="M15 25C19.4183 25 23 21.4183 23 17C23 12.5817 19.4183 9 15 9C10.5817 9 7 12.5817 7 17C7 21.4183 10.5817 25 15 25Z"
+										stroke="white"
+										stroke-width="2" />
+									<path
+										d="M17 5H13M15 5V9M20.5 11L22 9.5M15 14V17H12"
+										stroke="white"
+										stroke-width="2"
+										stroke-linecap="round"
+										stroke-linejoin="round" />
+								</svg>
+								<h4>1h 30min</h4>
+							</div>
+							<div class="workout-stat">
+								<div
+									style="
+										background-color: var(
+											--color-minsk-100
+										);
+										width: 30px;
+										height: 30px;
+										border-radius: 50%;
+									">
+									<svg
+										viewBox="0 0 69 69"
+										xmlns="http://www.w3.org/2000/svg">
+										<path
+											fill-rule="evenodd"
+											clip-rule="evenodd"
+											d="M5.75 0C4.22501 0 2.76247 0.605802 1.68414 1.68414C0.605802 2.76247 0 4.22501 0 5.75V63.25C0 64.775 0.605802 66.2375 1.68414 67.3159C2.76247 68.3942 4.22501 69 5.75 69H63.25C64.775 69 66.2375 68.3942 67.3159 67.3159C68.3942 66.2375 69 64.775 69 63.25V5.75C69 4.22501 68.3942 2.76247 67.3159 1.68414C66.2375 0.605802 64.775 0 63.25 0H5.75ZM49.8333 19.1667H44.0833V49.8333H49.8333V19.1667ZM53.6667 24.9167H59.4167V32.5833H61.3333V36.4167H59.4167V44.0833H53.6667V24.9167ZM19.1667 49.8333H24.9167V19.1667H19.1667V49.8333ZM15.3333 44.0833H9.58333V36.4167H7.66667V32.5833H9.58333V24.9167H15.3333V44.0833ZM28.75 36.4167H40.25V32.5833H28.75V36.4167Z"
+											fill="#5c37ca" />
+									</svg>
+								</div>
+								<h4>16 sets</h4>
+							</div>
+							<div class="workout-stat">
+								<svg
+									width="30"
+									height="30"
+									viewBox="0 0 30 30"
+									fill="none"
+									xmlns="http://www.w3.org/2000/svg">
+									<rect
+										width="30"
+										height="30"
+										rx="4"
+										fill="#5C37CA" />
+									<path
+										d="M9.23077 25.3846V23.0769H13.8462V19.5C12.9038 19.2884 12.0627 18.8896 11.3227 18.3034C10.5827 17.7173 10.0392 16.9815 9.69231 16.0961C8.25 15.923 7.04346 15.2934 6.07269 14.2073C5.10193 13.1211 4.61616 11.8469 4.61539 10.3846V6.92305H9.23077V4.61536H20.7692V6.92305H25.3846V10.3846C25.3846 11.8461 24.8988 13.1204 23.9273 14.2073C22.9558 15.2942 21.7492 15.9238 20.3077 16.0961C19.9615 16.9807 19.4185 17.7165 18.6785 18.3034C17.9385 18.8904 17.0969 19.2892 16.1538 19.5V23.0769H20.7692V25.3846H9.23077ZM9.23077 13.6154V9.23074H6.92308V10.3846C6.92308 11.1154 7.13462 11.7742 7.55769 12.3611C7.98077 12.948 8.53846 13.3661 9.23077 13.6154ZM20.7692 13.6154C21.4615 13.3654 22.0192 12.9469 22.4423 12.36C22.8654 11.773 23.0769 11.1146 23.0769 10.3846V9.23074H20.7692V13.6154Z"
+										fill="#ECEBFC" />
+								</svg>
+
+								<h4>3 PRs</h4>
+							</div>
+						</div>
+					</div>
+					<div class="profile-workout">
+						<header>
+							<h3>Pull</h3>
+							<time>1.12.2025</time>
+						</header>
+						<div>
+							<div class="workout-stat">
+								<svg
+									width="30"
+									height="30"
+									viewBox="0 0 30 30"
+									fill="none"
+									xmlns="http://www.w3.org/2000/svg">
+									<rect
+										width="30"
+										height="30"
+										rx="4"
+										fill="#6C4ADD" />
+									<path
+										d="M15 25C19.4183 25 23 21.4183 23 17C23 12.5817 19.4183 9 15 9C10.5817 9 7 12.5817 7 17C7 21.4183 10.5817 25 15 25Z"
+										stroke="white"
+										stroke-width="2" />
+									<path
+										d="M17 5H13M15 5V9M20.5 11L22 9.5M15 14V17H12"
+										stroke="white"
+										stroke-width="2"
+										stroke-linecap="round"
+										stroke-linejoin="round" />
+								</svg>
+								<h4>1h 34min</h4>
+							</div>
+							<div class="workout-stat">
+								<div
+									style="
+										background-color: var(
+											--color-minsk-100
+										);
+										width: 30px;
+										height: 30px;
+										border-radius: 50%;
+									">
+									<svg
+										viewBox="0 0 69 69"
+										xmlns="http://www.w3.org/2000/svg">
+										<path
+											fill-rule="evenodd"
+											clip-rule="evenodd"
+											d="M5.75 0C4.22501 0 2.76247 0.605802 1.68414 1.68414C0.605802 2.76247 0 4.22501 0 5.75V63.25C0 64.775 0.605802 66.2375 1.68414 67.3159C2.76247 68.3942 4.22501 69 5.75 69H63.25C64.775 69 66.2375 68.3942 67.3159 67.3159C68.3942 66.2375 69 64.775 69 63.25V5.75C69 4.22501 68.3942 2.76247 67.3159 1.68414C66.2375 0.605802 64.775 0 63.25 0H5.75ZM49.8333 19.1667H44.0833V49.8333H49.8333V19.1667ZM53.6667 24.9167H59.4167V32.5833H61.3333V36.4167H59.4167V44.0833H53.6667V24.9167ZM19.1667 49.8333H24.9167V19.1667H19.1667V49.8333ZM15.3333 44.0833H9.58333V36.4167H7.66667V32.5833H9.58333V24.9167H15.3333V44.0833ZM28.75 36.4167H40.25V32.5833H28.75V36.4167Z"
+											fill="#5c37ca" />
+									</svg>
+								</div>
+								<h4>20 sets</h4>
+							</div>
+							<div class="workout-stat">
+								<svg
+									width="30"
+									height="30"
+									viewBox="0 0 30 30"
+									fill="none"
+									xmlns="http://www.w3.org/2000/svg">
+									<rect
+										width="30"
+										height="30"
+										rx="4"
+										fill="#5C37CA" />
+									<path
+										d="M9.23077 25.3846V23.0769H13.8462V19.5C12.9038 19.2884 12.0627 18.8896 11.3227 18.3034C10.5827 17.7173 10.0392 16.9815 9.69231 16.0961C8.25 15.923 7.04346 15.2934 6.07269 14.2073C5.10193 13.1211 4.61616 11.8469 4.61539 10.3846V6.92305H9.23077V4.61536H20.7692V6.92305H25.3846V10.3846C25.3846 11.8461 24.8988 13.1204 23.9273 14.2073C22.9558 15.2942 21.7492 15.9238 20.3077 16.0961C19.9615 16.9807 19.4185 17.7165 18.6785 18.3034C17.9385 18.8904 17.0969 19.2892 16.1538 19.5V23.0769H20.7692V25.3846H9.23077ZM9.23077 13.6154V9.23074H6.92308V10.3846C6.92308 11.1154 7.13462 11.7742 7.55769 12.3611C7.98077 12.948 8.53846 13.3661 9.23077 13.6154ZM20.7692 13.6154C21.4615 13.3654 22.0192 12.9469 22.4423 12.36C22.8654 11.773 23.0769 11.1146 23.0769 10.3846V9.23074H20.7692V13.6154Z"
+										fill="#ECEBFC" />
+								</svg>
+
+								<h4>1 PR</h4>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+		</main>
+		<script src="js/fadein.js"></script>
+		<script src="js/burger.js"></script>
+	</body>
+</html>

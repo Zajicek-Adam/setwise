@@ -16,7 +16,7 @@
 	top: calc(50% + 0px);
 	transform: translate(-50%, -50%);
 	opacity: 0.35;
-	filter: blur(12px);
+	filter: blur(8px);
 	height: 150%;
 	user-select: none;
 }

@@ -167,7 +167,8 @@ body {
 		font-size: 1em;
 	}
 	.form {
-		grid-template-rows: 1fr 0.75fr 0.75fr 0.75fr 1fr;
+		grid-template-rows: 1.2fr 60px 60px 0.75fr 1fr;
+		gap: 0.25em;
 	}
 	.form-input-container label {
 		top: 16px;
